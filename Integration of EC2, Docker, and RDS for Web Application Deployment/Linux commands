@@ -1,0 +1,24 @@
+EC2 Instance
+•	sudo yum install -y docker
+•	sudo systemctl start docker
+•	sudo systemctl status docker
+•	sudo docker pull philippaul/node-mysql-app:02
+•	sudo docker images
+
+
+•	docker run --rm -p 80:3000 
+-e DB_HOST="-db-hostname (database endpoint)" 
+-e DB_USER="-db-username" 
+-e DB_PASSWORD="-db-password" 
+-d philippaul/node-mysql-app:02
+
+Sudo docker ps
+Sudo docker logs -f   (container name)
+
+
+ MySQL 
+•	docker run -it --rm mysql:8.0 mysql -h db.example.com -u admin -p
+•	SHOW DATABASES;
+•	USE my_app_db;
+•	SHOW TABLES;
+•	SELECT * FROM contacts;
