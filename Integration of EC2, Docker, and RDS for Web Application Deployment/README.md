@@ -5,8 +5,6 @@
 This project explains how to connect an EC2 instance, Docker container, and Aurora database.
 A simple web app is used to add user details, and the data is stored safely in MySQL.
 
-The full implementation is documented step-by-step with screenshots in the attached PDF 
-
 
 
 <h2>Technologies & Services Used</h2>
@@ -49,6 +47,11 @@ Web application accessed via EC2 public IP
 User data submitted successfully
 
 Data verified inside Aurora MySQL using MySQL client
+
+
+<h2>Documentation</h2>
+
+The complete step-by-step process with screenshots is available in the PDF included in this repository 
 
 
 
