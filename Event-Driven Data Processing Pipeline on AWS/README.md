@@ -2,7 +2,8 @@
 
 <h2># Project Overview<h2/>
 
-This project demonstrates the implementation of an event-driven data processing pipeline on AWS using multiple AWS services. The pipeline automatically processes uploaded data, stores processed records, and sends summary notifications via email on a scheduled basis.
+This project is about creating an automatic data processing system using AWS.
+Files uploaded to S3 are processed automatically without using servers. The results are saved in DynamoDB, and a daily email report is sent to the user.
 
 The complete step-by-step implementation with screenshots is documented in the attached PDF 
 
