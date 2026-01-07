@@ -1,6 +1,6 @@
 <h1>Event-Driven Data Processing Pipeline on AWS</h1>        
 
-<h2>Project Overview<h2/>
+<h2>Project Overview</h2>
 
 This project is about creating an automatic data processing system using AWS.
 Files uploaded to S3 are processed automatically without using servers. The results are saved in DynamoDB, and a daily email report is sent to the user.
