@@ -5,8 +5,6 @@
 This project is about creating an automatic data processing system using AWS.
 Files uploaded to S3 are processed automatically without using servers. The results are saved in DynamoDB, and a daily email report is sent to the user.
 
-The complete step-by-step implementation with screenshots is documented in the attached PDF 
-
 
 
 <h2>AWS Services Used</h2>
@@ -46,6 +44,10 @@ DynamoDB entries verified after processing
 
 Email notifications confirmed via SNS subscription
 
+
+<h2>Documentation</h2>
+
+The complete step-by-step process with screenshots is available in the PDF included in this repository 
 
 
  <h2>Author</h2>
