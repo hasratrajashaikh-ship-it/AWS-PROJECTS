@@ -1,6 +1,6 @@
 <h1>Event-Driven Data Processing Pipeline on AWS</h1>        
 
-<h2># Project Overview<h2/>
+<h2>Project Overview<h2/>
 
 This project is about creating an automatic data processing system using AWS.
 Files uploaded to S3 are processed automatically without using servers. The results are saved in DynamoDB, and a daily email report is sent to the user.
@@ -9,7 +9,7 @@ The complete step-by-step implementation with screenshots is documented in the a
 
 
 
-<h2># AWS Services Used</h2>
+<h2>WS Services Used</h2>
 
 1. Amazon S3 – Data ingestion (file upload trigger)
 2. AWS Lambda – Serverless data processing & report generation
@@ -19,7 +19,7 @@ The complete step-by-step implementation with screenshots is documented in the a
 6. AWS IAM – Role-based access control
 
 
-<h2># Architecture Workflow</h2>
+<h2>Architecture Workflow</h2>
 
 1. Files are uploaded to an S3 bucket
 2. S3 event triggers a Lambda function
@@ -28,7 +28,7 @@ The complete step-by-step implementation with screenshots is documented in the a
 5. Summary report is sent via SNS email notification
    
 
-<h2># Features</h2>
+<h2>Features</h2>
 
 Fully serverless architecture
 
@@ -38,7 +38,7 @@ Scalable and cost-efficient
 
 Uses AWS managed services only
 
-<h2># Testing</h2>
+<h2>Testing</h2>
 
 Lambda functions were tested successfully
 
