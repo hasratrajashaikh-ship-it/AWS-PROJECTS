@@ -9,7 +9,7 @@ The complete step-by-step implementation with screenshots is documented in the a
 
 
 
-<h2>WS Services Used</h2>
+<h2>AWS Services Used</h2>
 
 1. Amazon S3 – Data ingestion (file upload trigger)
 2. AWS Lambda – Serverless data processing & report generation
