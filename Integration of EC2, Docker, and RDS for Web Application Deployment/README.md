@@ -2,8 +2,8 @@
 
 <h2>Project Overview</h2>
 
-This project demonstrates how to connect a Docker-based web application running on an Amazon EC2 instance with an Amazon Aurora MySQL database.
-The application allows users to submit data through a web interface, which is then stored securely in the Aurora database.
+This project explains how to connect an EC2 instance, Docker container, and Aurora database.
+A simple web app is used to add user details, and the data is stored safely in MySQL.
 
 The full implementation is documented step-by-step with screenshots in the attached PDF 
 
