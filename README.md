@@ -30,8 +30,6 @@ I enjoy building projects and improving my skills in **cloud computing and progr
 
 ## 💻 Tech Stack
 
-# 💻 Tech Stack
-
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
