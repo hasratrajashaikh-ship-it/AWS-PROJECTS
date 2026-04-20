@@ -101,7 +101,7 @@ sudo systemctl start docker
 ### 4️⃣ Pull Docker Image
 docker pull phillippaul/node-mysql-app:02
 
-###5️⃣ Run Container
+### 5️⃣ Run Container
 docker run -d -p 80:3000 \
 -e DB_HOST=<your-rds-endpoint> \
 -e DB_USER=<username> \
@@ -110,7 +110,7 @@ docker run -d -p 80:3000 \
 
 -phillippaul/node-mysql-app:02
 
-###▶️ How to Test
+### ▶️ How to Test
 -Open EC2 public IP in browser
 -Enter user data in web app
 -Check database for stored data
