@@ -94,7 +94,7 @@ User → EC2 (Docker Container) → RDS (MySQL Database)
 - Allow ports: 22, 80  
 
 ### 3️⃣ Install Docker
-```bash
+
 sudo yum install docker -y
 sudo systemctl start docker
 
@@ -121,8 +121,8 @@ EC2 to RDS connectivity
 Docker-based deployment
 Cloud database integration
 Real-world application hosting
-🙌 Author
 
+🙌 Author
 Hasrat Raja Shaikh
 Aspiring Cloud Engineer ☁️
 
