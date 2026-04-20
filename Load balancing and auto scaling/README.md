@@ -1,4 +1,4 @@
-# ⚖️ AWS Load Balancer & Auto Scaling Project
+#  AWS Load Balancer & Auto Scaling Project
 
 This project demonstrates how to build a **highly available and scalable web architecture** using **AWS EC2, Application Load Balancer (ALB), and Auto Scaling Group (ASG)**.
 
