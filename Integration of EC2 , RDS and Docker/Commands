@@ -1,0 +1,34 @@
+RDS Instance
+•	Create a RDS MySQL instance
+o	Use Free Tier
+o	Username will be 'admin' and you can set password (you can't use
+special character)
+o	Keep the Public access to True to access it from Local or remote server
+o	Create a security group (and allow 3306 from everywhere)
+o	After creating, you can find Endpoint (hostname) to connect to this DB
+
+
+
+EC2 Instance
+•	sudo yum install -y docker
+•	sudo systemctl start docker
+•	sudo systemctl status docker
+•	sudo docker pull philippaul/node-mysql-app:02
+•	sudo docker images
+
+
+•	docker run --rm -p 80:3000 
+-e DB_HOST="-db-hostname (database endpoint)" 
+-e DB_USER="-db-username" 
+-e DB_PASSWORD="-db-password" 
+-d philippaul/node-mysql-app:02
+
+Sudo docker ps
+Sudo docker logs -f   (container name)
+
+ MySQL 
+•	docker run -it --rm mysql:8.0 mysql -h db.example.com -u admin -p
+•	SHOW DATABASES;
+•	USE my_app_db;
+•	SHOW TABLES;
+•	SELECT * FROM contacts;
