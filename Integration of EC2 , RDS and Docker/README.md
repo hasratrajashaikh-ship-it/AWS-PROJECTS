@@ -107,22 +107,23 @@ docker run -d -p 80:3000 \
 -e DB_USER=<username> \
 -e DB_PASSWORD=<password> \
 -e DB_NAME=<database-name> \
-phillippaul/node-mysql-app:02
+
+-phillippaul/node-mysql-app:02
 
 ###▶️ How to Test
-Open EC2 public IP in browser
-Enter user data in web app
-Check database for stored data
-Confirm successful integration
+-Open EC2 public IP in browser
+-Enter user data in web app
+-Check database for stored data
+-Confirm successful integration
 
 
 🎯 Key Learnings
-EC2 to RDS connectivity
-Docker-based deployment
-Cloud database integration
-Real-world application hosting
+-EC2 to RDS connectivity
+-Docker-based deployment
+-Cloud database integration
+-Real-world application hosting
 
 🙌 Author
-Hasrat Raja Shaikh
-Aspiring Cloud Engineer ☁️
+-Hasrat Raja Shaikh
+-Aspiring Cloud Engineer ☁️
 
