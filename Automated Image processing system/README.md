@@ -11,7 +11,7 @@ This project is an event-driven architecture using AWS services. Whenever a user
 
 ## 🏗️ Architecture
 
-User Upload
+User Upload.
       │
       ▼
 Amazon S3 (Source Bucket)
